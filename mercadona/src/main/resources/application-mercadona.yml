@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc.postgresql://${MERCADONA_DB_HOST}:${MERCADONA_DB_PORT}/${MERCADONA_DB_NAME}
+    username: ${MERCADONA_DB_USERNAME}
+    password: ${MERCADONA_DB_PASSWORD}
+    name: mercadonaa
+
+  sql:
+    init:
+      mode: always
